@@ -1,5 +1,5 @@
 <?php
 
-echo show_source("en_lang.php");
+echo show_source("index.php");
 
 ?>
